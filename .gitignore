@@ -1,0 +1,9 @@
+# Entorno virtual: no se sube, se recrea con requirements.txt
+.venv/
+
+# Claves de API
+.env
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
