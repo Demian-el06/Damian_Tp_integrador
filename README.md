@@ -34,8 +34,7 @@
 1. Clonar el repo y crear el entorno (Python 3.13):
    ```bash
    python -m venv .venv
-   .venv\Scripts\activate  
-   pip install -r requirements.txt
+   .venv\Scripts\python -m pip install -r requirements.txt
    ```
 2. Tener **Java** instalado porque `tabula` lo necesita para leer el PDF.
 3. Abrir `TP6.ipynb`, elegir como kernel el Python de `.venv` y ejecutar todo.
